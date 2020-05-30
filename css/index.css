@@ -4,18 +4,23 @@
     }
     
     .nav {
-        display: block;
         position: absolute;
         left: 60%;
         width: 35%;
         margin: 1% auto;
     }
     
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
     .nav li {
         list-style: none;
-        display: inline-block;
+        /*display: inline-block;
         margin: 2.5% auto;
-        border-radius: 10%;
+        border-radius: 10%;*/
     }
     
     .nav a {
