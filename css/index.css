@@ -5,8 +5,8 @@
     
     .nav {
         position: absolute;
-        left: 60%;
-        width: 35%;
+        left: 60vw;
+        width: 39vw;
         margin: 1% auto;
     }
     
@@ -25,7 +25,7 @@
     
     .nav a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 2vw;
         color: #682b3b;
         padding: 15px 20px;
     }
@@ -39,35 +39,37 @@
     #sidebar {
         background-color: #d9455f;
         display: inline-block;
-        width: 23%;
-        height: 39em;
+        width: 48vh;
+        height: 100vh;
+        overflow: auto;
     }
     
     #border-box {
-        width: 15em;
-        height: 22em;
+        width: 35vh;
+        height: 56vh;
         position: absolute;
-        left: 13%;
-        top: 18%;
+        left: 28vh;
+        top: 8vw;
         border: 20px solid #d9455f;
     }
     
     #border-box img {
-        width: 95%;
-        height: 20.5em;
+        max-width: 33vh;
+        height: 52vh;
         padding-top: 5%;
+        object-fit: cover;
     }
     
     .mainContainer {
         display: inline-block;
         position: absolute;
-        left: 30rem;
+        left: 75vh;
         top: 25%;
         margin: 15px;
     }
     
     .mainContainer h2 {
-        font-size: 3rem;
+        font-size: 4vw;
         font-weight: bolder;
         font-family: 'Raleway', sans-serif;
     }
