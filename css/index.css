@@ -73,7 +73,7 @@
     }
     
     .mainContainer h2 {
-        font-size: 7.5vh;
+        font-size: 7.1vh;
         font-weight: bolder;
         font-family: 'Raleway', sans-serif;
     }
@@ -103,25 +103,26 @@
     
     #copyright {
         max-width: 30vh;
-        position: absolute;
-        top: 40vw;
+        position: relative;
+        top: 87vh;
         left: 1%;
     }
     
     .bottom-container {
-        right: 2vw;
-        top: 38vw;
+        left: 39vw;
+        top: 60vh;
         position: absolute;
         display: flex;
         flex-direction: row;
         margin: 2%;
+        justify-content: end;
         /* margin-right: auto;
         width: 20%;*/
     }
     
     .link {
         display: inline-block;
-        margin: 2%;
+        margin: 4%;
     }
     
     .bottom-container img {
