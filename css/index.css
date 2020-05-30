@@ -5,34 +5,38 @@
     
     .nav {
         position: absolute;
-        left: 60vw;
+        left: 65vw;
         width: 39vw;
         margin: 1% auto;
     }
     
     .nav ul {
+        margin: 10px 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: end;
+        flex-wrap: wrap;
     }
     
     .nav li {
         list-style: none;
         /*display: inline-block;
-        margin: 2.5% auto;
+        
+
         border-radius: 10%;*/
     }
     
-    .nav a {
+    .nav li a {
         text-decoration: none;
         font-size: 2vw;
         color: #682b3b;
         padding: 15px 20px;
+        margin: 10px;
     }
     
-    .nav a.active,
-    .nav a:hover {
+    .nav li a.active,
+    .nav li a:hover {
         background-image: linear-gradient(#d9455f, white);
         color: #682b3b;
     }
