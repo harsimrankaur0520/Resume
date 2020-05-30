@@ -14,6 +14,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: end;
     }
     
     .nav li {
@@ -49,12 +50,12 @@
         height: 56vh;
         position: absolute;
         left: 28vh;
-        top: 8vw;
+        top: 17vh;
         border: 20px solid #d9455f;
     }
     
     #border-box img {
-        max-width: 33vh;
+        max-width: 95%;
         height: 52vh;
         padding-top: 5%;
         object-fit: cover;
@@ -63,13 +64,13 @@
     .mainContainer {
         display: inline-block;
         position: absolute;
-        left: 75vh;
-        top: 25%;
+        left: 70vh;
+        top: 19vh;
         margin: 15px;
     }
     
     .mainContainer h2 {
-        font-size: 4vw;
+        font-size: 8.5vh;
         font-weight: bolder;
         font-family: 'Raleway', sans-serif;
     }
@@ -78,7 +79,7 @@
         margin-top: 3%;
         position: relative;
         top: 78%;
-        font-size: 1.5em;
+        font-size: 5.5vh;
     }
     
     .btn {
@@ -98,10 +99,10 @@
     }
     
     #copyright {
-        width: 23%;
+        max-width: 30vh;
         position: absolute;
         top: 36rem;
-        left: 2%;
+        left: 1%;
     }
     
     .bottom-container {
