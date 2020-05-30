@@ -5,7 +5,7 @@
     
     .nav {
         position: absolute;
-        left: 65vw;
+        right: 5vw;
         width: 39vw;
         margin: 1% auto;
     }
@@ -16,7 +16,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: end;
-        flex-wrap: wrap;
     }
     
     .nav li {
@@ -29,7 +28,7 @@
     
     .nav li a {
         text-decoration: none;
-        font-size: 2vw;
+        font-size: 5.2vh;
         color: #682b3b;
         padding: 15px 20px;
         margin: 10px;
